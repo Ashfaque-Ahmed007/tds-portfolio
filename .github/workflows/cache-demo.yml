@@ -1,0 +1,28 @@
+name: Cache Demo
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Cache dependencies
+        id: cache-step
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/demo
+          key: cache-086405f
+
+      - name: prime-cache-086405f
+        run: |
+          echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
+          mkdir -p ~/.cache/demo
+          echo "cached data" > ~/.cache/demo/data.txt
