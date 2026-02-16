@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "email": "24f2004906@ds.study.iitm.ac.in",
+    "version": "882472d3"
+  },
+  "products": [
+    {"id":"prod-882472d3-001","name":"Premium Item 1","category":"home","price":272.4,"stock":168,"rating":4.9},
+    {"id":"prod-882472d3-002","name":"Standard Item 2","category":"electronics","price":353.9,"stock":186,"rating":4.8},
+    {"id":"prod-882472d3-003","name":"Elite Item 3","category":"books","price":224.43,"stock":36,"rating":1.1},
+    {"id":"prod-882472d3-004","name":"Standard Item 4","category":"sports","price":117.7,"stock":188,"rating":4.4},
+    {"id":"prod-882472d3-005","name":"Premium Item 5","category":"clothing","price":285.87,"stock":89,"rating":1.1},
+    {"id":"prod-882472d3-006","name":"Elite Item 6","category":"clothing","price":469.34,"stock":123,"rating":1.7},
+    {"id":"prod-882472d3-007","name":"Premium Item 7","category":"books","price":255.83,"stock":93,"rating":4.8},
+    {"id":"prod-882472d3-008","name":"Basic Item 8","category":"books","price":490.57,"stock":103,"rating":2},
+    {"id":"prod-882472d3-009","name":"Premium Item 9","category":"home","price":247.28,"stock":142,"rating":4.2},
+    {"id":"prod-882472d3-010","name":"Elite Item 10","category":"clothing","price":28.43,"stock":190,"rating":1},
+    {"id":"prod-882472d3-011","name":"Pro Item 11","category":"home","price":369.8,"stock":43,"rating":4.1},
+    {"id":"prod-882472d3-012","name":"Premium Item 12","category":"sports","price":313.14,"stock":199,"rating":4.4},
+    {"id":"prod-882472d3-013","name":"Standard Item 13","category":"electronics","price":295.98,"stock":10,"rating":4},
+    {"id":"prod-882472d3-014","name":"Elite Item 14","category":"electronics","price":257.79,"stock":59,"rating":4.4},
+    {"id":"prod-882472d3-015","name":"Pro Item 15","category":"books","price":385.11,"stock":178,"rating":4.2},
+    {"id":"prod-882472d3-016","name":"Standard Item 16","category":"home","price":293.9,"stock":105,"rating":3.9},
+    {"id":"prod-882472d3-017","name":"Premium Item 17","category":"home","price":376.11,"stock":143,"rating":4.3}
+  ],
+  "aggregations": {
+    "electronics": {
+      "count": 3,
+      "inventoryValue": 83994.81
+    }
+  }
+}
